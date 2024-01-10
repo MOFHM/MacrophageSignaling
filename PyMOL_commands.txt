@@ -1,0 +1,34 @@
+scene 001, store - store the scene version and toggle between them
+
+
+#V2 - for rasberry red, sky blue, pale green tint combination (red for the activation loop, yellow for the residue)
+set hash_max, 400
+ray 
+set spec_power = 400
+ray
+set spec_refl = 0.5
+ray
+set surface_quality,2
+
+set transparency,0.3 or 0.25
+
+set cartoon_highlight_color, 115
+
+#White background
+
+set cartoon_smooth_loops,0
+
+set ray_shadow, 1
+set light_count, 2
+set light, [0, 0, -100]
+set ambient, 0.13
+set direct, 0.35
+set specular, 1
+set shininess, 5
+set specular_intensity, 0.3
+set reflect, 0.4
+set reflect_power, 0.5
+set depth_cue, 1
+set fog_start, 0.45
+set antialias, 3
+tialias, 3
